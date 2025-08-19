@@ -1,0 +1,9 @@
+neo4j
+fastapi
+uvicorn
+pydantic
+python-dotenv
+spacy
+fr-core-news-sm
+
+

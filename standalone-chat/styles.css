@@ -1,0 +1,62 @@
+:root{
+  --bg: #0f172a;          /* slate-900 */
+  --panel: #111827;       /* gray-900 */
+  --panel-2: #0b1220;     /* deeper */
+  --text: #e5e7eb;        /* gray-200 */
+  --muted: #9ca3af;       /* gray-400 */
+  --accent: #22c55e;      /* green-500 */
+  --accent-2: #60a5fa;    /* blue-400 */
+  --bubble-user: #1e293b; /* slate-800 */
+  --bubble-bot: #0b1220;  
+  --border: #1f2937;      /* gray-800 */
+}
+
+*{ box-sizing: border-box; }
+html, body{ height:100%; }
+body{
+  margin:0; background: var(--bg); color: var(--text);
+  font: 14px/1.4 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+}
+
+.app{ height:100%; display:flex; flex-direction:column; }
+
+.header{
+  display:flex; align-items:center; justify-content:space-between;
+  padding: 12px 16px; border-bottom:1px solid var(--border); background: var(--panel);
+  position: sticky; top:0; z-index:10;
+}
+.title{ font-weight:700; letter-spacing:.3px; }
+.mode-toggle{ background: var(--panel-2); padding:4px; border-radius:10px; border:1px solid var(--border); }
+.toggle{
+  background: transparent; color: var(--muted); border:0; padding:8px 12px; border-radius:8px; cursor:pointer;
+}
+.toggle.active{ background: #0f223a; color:#cfe7ff; border:1px solid #1f3e66; }
+
+.chat{ flex:1; overflow:auto; padding: 16px; display:flex; flex-direction:column; gap:12px; }
+
+.message{ display:flex; gap:10px; align-items:flex-start; }
+.message .avatar{
+  width:32px; height:32px; border-radius:8px; display:grid; place-items:center;
+  background: linear-gradient(135deg, var(--accent-2), var(--accent)); color:#07131b; font-weight:800;
+}
+.message .bubble{ max-width: 800px; padding:12px 14px; border-radius:14px; border:1px solid var(--border); }
+.message.user{ justify-content:flex-end; }
+.message.user .bubble{ background: var(--bubble-user); }
+.message.bot .bubble{ background: var(--bubble-bot); }
+
+.composer{
+  display:flex; gap:10px; padding:12px; border-top:1px solid var(--border); background: var(--panel);
+}
+#input{
+  flex:1; resize:none; border-radius:12px; border:1px solid var(--border); background:#0a1424; color:var(--text);
+  padding:12px; outline:none; max-height:120px;
+}
+.send{
+  background: linear-gradient(135deg, var(--accent), var(--accent-2)); border:0; color:#031218; font-weight:700;
+  padding:0 16px; border-radius:10px; cursor:pointer;
+}
+.send:disabled{ opacity:.5; cursor:not-allowed; }
+
+.meta{ color: var(--muted); font-size:12px; margin-top:6px; }
+
+

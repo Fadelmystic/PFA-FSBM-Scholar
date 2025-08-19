@@ -1,0 +1,1819 @@
+2025-04-12 19:16:45,945 - root - INFO - Using default multilingual embeddings
+2025-04-12 19:16:46,582 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-12 19:16:52,218 - root - ERROR - Error loading vectorstore: The de-serialization relies loading a pickle file. Pickle files can be modified to deliver a malicious payload that results in execution of arbitrary code on your machine.You will need to set `allow_dangerous_deserialization` to `True` to enable deserialization. If you do this, make sure that you trust the source of the data. For example, if you are loading a file that you created, and know that no one else has modified the file, then this is safe to do. Do not set this to `True` if you are loading a file from an untrusted source (e.g., some random site on the internet.).
+2025-04-12 19:18:16,274 - root - INFO - Using default multilingual embeddings
+2025-04-12 19:18:16,993 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-12 19:18:22,696 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-12 19:18:22,721 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-12 19:18:22,730 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-12 19:18:22,733 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-12 19:18:27,324 - root - INFO - Using default multilingual embeddings
+2025-04-12 19:18:27,327 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-12 19:18:32,312 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-12 19:18:32,789 - root - INFO - Simple search found 5 documents in 0.47s
+2025-04-12 19:18:32,960 - huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+2025-04-12 19:19:06,999 - root - INFO - Using default multilingual embeddings
+2025-04-12 19:19:07,002 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-12 19:19:11,364 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-12 19:19:11,424 - root - INFO - Simple search found 5 documents in 0.06s
+2025-04-12 19:19:11,596 - huggingface_hub._login - WARNING - Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+2025-04-25 18:29:11,007 - root - INFO - Using default multilingual embeddings
+2025-04-25 18:29:12,369 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 18:29:20,381 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 18:29:20,684 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 18:29:20,697 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 18:29:20,707 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 18:29:30,575 - root - INFO - Using default multilingual embeddings
+2025-04-25 18:29:30,578 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 18:29:35,554 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 18:29:36,207 - root - INFO - Simple search found 5 documents in 0.65s
+2025-04-25 18:29:36,721 - root - ERROR - Error calling OpenRouter API: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+2025-04-25 18:34:37,050 - root - INFO - Using default multilingual embeddings
+2025-04-25 18:34:42,673 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 18:34:49,028 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 18:34:49,053 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 18:34:49,065 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 18:34:49,072 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 18:35:03,936 - root - INFO - Using default multilingual embeddings
+2025-04-25 18:35:03,938 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 18:35:09,704 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 18:35:10,287 - root - INFO - Simple search found 5 documents in 0.58s
+2025-04-25 18:35:10,288 - root - ERROR - Error loading LLM: Can't instantiate abstract class OpenRouterLLM without an implementation for abstract method '_generate'
+2025-04-25 18:35:10,326 - root - ERROR - Erreur lors du traitement de la requête: The input to RunnablePassthrough.assign() must be a dict.
+2025-04-25 18:38:59,519 - root - INFO - Using default multilingual embeddings
+2025-04-25 18:39:06,525 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 18:39:12,054 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 18:39:12,077 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 18:39:12,084 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 18:39:12,089 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 18:40:34,113 - root - INFO - Using default multilingual embeddings
+2025-04-25 18:40:34,116 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 18:40:39,480 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 18:40:39,551 - root - INFO - Simple search found 5 documents in 0.07s
+2025-04-25 18:40:40,086 - root - ERROR - Error calling OpenRouter API: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+2025-04-25 18:40:46,947 - root - INFO - Using default multilingual embeddings
+2025-04-25 18:40:46,949 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 18:40:52,053 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 18:40:52,118 - root - INFO - Simple search found 5 documents in 0.05s
+2025-04-25 18:40:52,655 - root - ERROR - Error calling OpenRouter API: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+2025-04-25 18:44:54,223 - root - INFO - Using default multilingual embeddings
+2025-04-25 18:45:03,284 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 18:45:11,453 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 18:45:11,476 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 18:45:11,483 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 18:45:11,488 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 18:45:19,625 - root - INFO - Using default multilingual embeddings
+2025-04-25 18:45:19,628 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 18:45:24,539 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 18:45:24,610 - root - INFO - Simple search found 5 documents in 0.07s
+2025-04-25 18:45:25,154 - root - ERROR - Error calling OpenRouter API: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+2025-04-25 18:49:53,306 - root - INFO - Using default multilingual embeddings
+2025-04-25 18:49:53,310 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 18:50:00,353 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 18:50:06,477 - root - INFO - Using default multilingual embeddings
+2025-04-25 18:50:06,480 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 18:50:12,546 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 18:50:13,015 - root - INFO - Simple search found 5 documents in 0.46s
+2025-04-25 18:50:14,144 - root - ERROR - Error calling OpenRouter API: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+2025-04-25 18:55:50,523 - root - INFO - Using default multilingual embeddings
+2025-04-25 18:56:00,767 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 18:56:07,295 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 18:56:07,334 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 18:56:07,352 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 18:56:07,363 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 18:56:51,837 - root - INFO - Using default multilingual embeddings
+2025-04-25 18:56:51,839 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 18:56:58,959 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 18:56:59,057 - root - INFO - Simple search found 5 documents in 0.09s
+2025-04-25 18:56:59,058 - root - INFO - Using OpenRouter with model: meta-llama/llama-4-scout:free
+2025-04-25 18:56:59,110 - root - INFO - Sending request to OpenRouter with model: meta-llama/llama-4-scout:free
+2025-04-25 18:56:59,727 - root - ERROR - OpenRouter API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+2025-04-25 18:56:59,727 - root - ERROR - Erreur lors du traitement de la requête: Authentication failed: Please check your OpenRouter API key
+2025-04-25 19:02:56,105 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 19:03:01,200 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 19:03:01,216 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 19:03:01,234 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 19:03:01,241 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 19:03:04,356 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 19:03:09,730 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 19:03:09,806 - root - INFO - Simple search found 5 documents
+2025-04-25 19:03:09,808 - root - WARNING - No OpenRouter API Key found.
+2025-04-25 19:03:09,809 - root - ERROR - Error loading LLM: Missing OpenRouter API key
+2025-04-25 19:06:37,011 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 19:06:45,214 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 19:06:45,234 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 19:06:45,243 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 19:06:45,246 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 19:06:52,338 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 19:06:57,302 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 19:06:57,361 - root - INFO - Simple search found 5 documents
+2025-04-25 19:06:57,363 - root - WARNING - No OpenRouter API Key found.
+2025-04-25 19:06:57,364 - root - ERROR - Error loading LLM: Missing OpenRouter API key
+2025-04-25 19:23:40,387 - root - INFO - Using default multilingual embeddings
+2025-04-25 19:23:41,282 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 19:23:48,931 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 19:23:49,046 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 19:23:49,058 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 19:23:49,069 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 19:29:11,109 - root - INFO - Using default multilingual embeddings
+2025-04-25 19:29:11,982 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 19:29:18,089 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 19:29:18,196 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 19:29:18,208 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 19:29:18,221 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 19:30:06,329 - root - INFO - Using default multilingual embeddings
+2025-04-25 19:30:06,332 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 19:30:11,153 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 19:30:11,841 - root - INFO - Simple search found 5 documents in 0.68s
+2025-04-25 19:31:22,075 - root - INFO - Using default multilingual embeddings
+2025-04-25 19:31:23,042 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 19:31:32,347 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 19:31:32,372 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 19:31:32,379 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 19:31:32,382 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 19:32:51,767 - root - INFO - Using default multilingual embeddings
+2025-04-25 19:32:51,770 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 19:32:56,475 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 19:32:56,545 - root - INFO - Simple search found 5 documents in 0.07s
+2025-04-25 19:35:06,926 - root - INFO - Using default multilingual embeddings
+2025-04-25 19:35:07,537 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 19:35:12,962 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 19:35:12,982 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 19:35:12,990 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 19:35:12,993 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 19:35:17,950 - root - INFO - Using default multilingual embeddings
+2025-04-25 19:35:17,953 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 19:35:22,896 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 19:35:22,962 - root - INFO - Simple search found 5 documents in 0.06s
+2025-04-25 19:35:23,000 - root - ERROR - Erreur lors du traitement de la requête: 'method' object is not iterable
+2025-04-25 19:38:30,756 - root - INFO - Using default multilingual embeddings
+2025-04-25 19:38:31,669 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 19:38:39,996 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 19:38:40,019 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 19:38:40,032 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 19:38:40,041 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 19:39:10,058 - root - INFO - Using default multilingual embeddings
+2025-04-25 19:39:10,060 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 19:39:15,325 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 19:39:15,394 - root - INFO - Simple search found 5 documents in 0.06s
+2025-04-25 19:39:55,027 - root - INFO - Using default multilingual embeddings
+2025-04-25 19:39:55,619 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 19:40:00,765 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 19:40:00,786 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 19:40:00,786 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 19:40:00,803 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 19:40:04,221 - root - INFO - Using default multilingual embeddings
+2025-04-25 19:40:04,221 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 19:40:10,013 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 19:40:10,082 - root - INFO - Simple search found 5 documents in 0.06s
+2025-04-25 19:40:10,108 - root - ERROR - Erreur lors du traitement de la requête: Missing some input keys: {'query'}
+2025-04-25 19:42:54,657 - root - INFO - Using default multilingual embeddings
+2025-04-25 19:42:55,245 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 19:43:00,888 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 19:43:00,917 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 19:43:00,924 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 19:43:00,927 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 19:43:06,170 - root - INFO - Using default multilingual embeddings
+2025-04-25 19:43:06,170 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 19:43:10,971 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 19:43:11,044 - root - INFO - Simple search found 5 documents in 0.07s
+2025-04-25 19:43:11,066 - root - ERROR - Erreur lors du traitement de la requête: 'method' object is not iterable
+2025-04-25 19:59:41,098 - root - INFO - Using default multilingual embeddings
+2025-04-25 19:59:41,914 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 19:59:48,256 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 19:59:48,276 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 19:59:48,285 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 19:59:48,290 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 20:00:45,708 - root - INFO - Using default multilingual embeddings
+2025-04-25 20:00:45,711 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 20:00:50,387 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 20:00:50,455 - root - INFO - Simple search found 5 documents in 0.06s
+2025-04-25 20:00:50,483 - root - ERROR - Erreur lors du traitement de la requête: 'method' object is not iterable
+2025-04-25 20:01:19,854 - root - INFO - Using default multilingual embeddings
+2025-04-25 20:01:20,513 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 20:01:25,988 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 20:01:26,011 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 20:01:26,020 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 20:01:26,025 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 20:01:53,356 - root - INFO - Using default multilingual embeddings
+2025-04-25 20:01:53,356 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 20:01:58,373 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 20:01:58,441 - root - INFO - Simple search found 5 documents in 0.06s
+2025-04-25 20:01:58,469 - root - ERROR - Erreur lors du traitement de la requête: 'method' object is not iterable
+2025-04-25 20:05:23,512 - root - INFO - Using default multilingual embeddings
+2025-04-25 20:05:24,177 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 20:05:32,547 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 20:05:32,569 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 20:05:32,579 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 20:05:32,582 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 20:14:06,392 - root - INFO - Using default multilingual embeddings
+2025-04-25 20:14:06,394 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 20:14:10,904 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 20:14:10,971 - root - INFO - Simple search found 5 documents in 0.07s
+2025-04-25 20:14:11,044 - root - ERROR - Erreur lors du traitement de la requête: "Input to PromptTemplate is missing variables {'question'}.  Expected: ['context', 'question'] Received: ['input', 'context']\nNote: if you intended {question} to be part of the string and not a variable, please escape it with double curly braces like: '{{question}}'.\nFor troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_PROMPT_INPUT "
+2025-04-25 20:15:09,027 - root - INFO - Using default multilingual embeddings
+2025-04-25 20:15:09,650 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 20:15:15,328 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 20:15:15,354 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 20:15:15,361 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 20:15:15,369 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 20:16:05,176 - root - INFO - Using default multilingual embeddings
+2025-04-25 20:16:05,178 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 20:16:10,567 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 20:16:10,634 - root - INFO - Simple search found 5 documents in 0.06s
+2025-04-25 20:16:10,681 - root - ERROR - Erreur lors du traitement de la requête: 'method' object is not iterable
+2025-04-25 20:18:36,077 - root - INFO - Using default multilingual embeddings
+2025-04-25 20:18:36,830 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 20:18:42,697 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 20:18:42,725 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 20:18:42,735 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 20:18:42,742 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 20:19:00,372 - root - INFO - Using default multilingual embeddings
+2025-04-25 20:19:00,372 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 20:19:05,774 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 20:19:05,847 - root - INFO - Simple search found 5 documents in 0.07s
+2025-04-25 20:19:05,864 - root - ERROR - Erreur lors du traitement de la requête: 'input'
+2025-04-25 20:20:22,165 - root - INFO - Using default multilingual embeddings
+2025-04-25 20:20:22,741 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 20:20:30,173 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 20:20:30,194 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 20:20:30,208 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 20:20:30,218 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 20:21:17,359 - root - INFO - Using default multilingual embeddings
+2025-04-25 20:21:18,122 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 20:21:26,378 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 20:21:26,407 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 20:21:26,415 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 20:21:26,421 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 20:21:36,393 - root - INFO - Using default multilingual embeddings
+2025-04-25 20:21:36,395 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 20:21:41,845 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 20:21:41,912 - root - INFO - Simple search found 5 documents in 0.06s
+2025-04-25 20:21:41,920 - root - ERROR - Erreur lors du traitement de la requête: create_retrieval_chain() got an unexpected keyword argument 'input_key'
+2025-04-25 20:37:45,320 - root - INFO - Using default multilingual embeddings
+2025-04-25 20:37:46,054 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 20:38:00,756 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 20:38:00,783 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 20:38:00,795 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 20:38:00,799 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 20:40:37,063 - root - INFO - Using default multilingual embeddings
+2025-04-25 20:40:37,065 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 20:40:43,374 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 20:40:43,517 - root - INFO - Simple search found 5 documents in 0.14s
+2025-04-25 20:40:43,557 - root - ERROR - Erreur lors du traitement de la requête: Missing some input keys: {'query'}
+2025-04-25 21:06:42,445 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:06:51,242 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:06:58,506 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 21:06:58,527 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 21:06:58,536 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 21:06:58,539 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:08:09,716 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:08:09,719 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:08:18,025 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:08:18,093 - root - INFO - Simple search found 5 documents in 0.07s
+2025-04-25 21:09:30,533 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:09:39,429 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:10:13,630 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 21:10:13,651 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 21:10:13,660 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 21:10:13,663 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:10:24,383 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:10:24,385 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:10:36,362 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:10:36,435 - root - INFO - Simple search found 5 documents in 0.07s
+2025-04-25 21:10:36,462 - root - ERROR - Erreur lors du traitement de la requête: 'method' object is not iterable
+2025-04-25 21:48:14,797 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:48:24,380 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:48:31,499 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 21:48:31,520 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 21:48:31,529 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 21:48:31,534 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:48:44,644 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:48:44,646 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:48:49,969 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:48:50,038 - root - INFO - Simple search found 5 documents in 0.06s
+2025-04-25 21:49:15,143 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:49:15,146 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:49:21,540 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:49:21,607 - root - INFO - Simple search found 5 documents in 0.06s
+2025-04-25 21:49:41,608 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:49:41,610 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:49:50,972 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:49:51,030 - root - INFO - Simple search found 5 documents in 0.05s
+2025-04-25 21:52:17,578 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:52:17,581 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:52:24,516 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:52:24,583 - root - INFO - Simple search found 5 documents in 0.06s
+2025-04-25 21:53:35,769 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:53:35,772 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:53:41,183 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:53:41,255 - root - INFO - Simple search found 5 documents in 0.06s
+2025-04-25 21:54:25,863 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:54:25,866 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:54:32,117 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:54:32,180 - root - INFO - Simple search found 5 documents in 0.06s
+2025-04-25 21:55:07,797 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:55:07,800 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:55:13,250 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:55:19,843 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:55:19,845 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:55:25,533 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:55:25,542 - root - INFO - Filtered vector store from 277 to 47 documents
+2025-04-25 21:55:25,543 - root - ERROR - Error in simple search: 'FAISS' object has no attribute '_embedding_function'
+2025-04-25 21:55:55,531 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:55:55,533 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:55:56,846 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:55:56,851 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:56:00,941 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:56:00,943 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:56:02,483 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:56:05,556 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:56:07,135 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:56:07,146 - root - INFO - Filtered vector store from 277 to 133 documents
+2025-04-25 21:56:07,147 - root - ERROR - Error in simple search: 'FAISS' object has no attribute '_embedding_function'
+2025-04-25 21:56:11,952 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:56:11,955 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:56:16,836 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:56:16,847 - root - INFO - Filtered vector store from 277 to 133 documents
+2025-04-25 21:56:16,848 - root - ERROR - Error in simple search: 'FAISS' object has no attribute '_embedding_function'
+2025-04-25 21:56:25,784 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:56:25,787 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:56:30,471 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:56:30,482 - root - INFO - Filtered vector store from 277 to 133 documents
+2025-04-25 21:56:30,483 - root - ERROR - Error in simple search: 'FAISS' object has no attribute '_embedding_function'
+2025-04-25 21:56:33,358 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:56:33,360 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:56:35,910 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:56:35,916 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:56:38,570 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:56:42,158 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:56:43,298 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:56:43,301 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:56:49,066 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:56:49,090 - root - INFO - Filtered vector store from 277 to 50 documents
+2025-04-25 21:56:49,090 - root - ERROR - Error in simple search: 'FAISS' object has no attribute '_embedding_function'
+2025-04-25 21:56:51,372 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:56:51,374 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:56:56,413 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:57:04,699 - root - INFO - Using default multilingual embeddings
+2025-04-25 21:57:04,701 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 21:57:10,239 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 21:57:10,310 - root - INFO - Simple search found 5 documents in 0.06s
+2025-04-25 22:07:46,553 - INFO - Loading HuggingFace embeddings …
+2025-04-25 22:07:54,919 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 22:08:01,541 - INFO - Loading faiss with AVX2 support.
+2025-04-25 22:08:01,563 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 22:08:01,574 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 22:08:01,579 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-04-25 22:08:27,622 - INFO - Answered id=5570d931-3f70-4a7b-9266-d1e714a0ba6a in 5.46s
+2025-04-25 22:08:46,751 - INFO - Answered id=be4361a1-2852-4d6f-868a-a1acd0ce3448 in 6.65s
+2025-04-25 22:09:02,435 - INFO - Answered id=65579935-2277-47d5-b363-c74e0b6ba4e6 in 8.05s
+2025-04-25 22:09:19,740 - INFO - Answered id=e5d915e1-746f-41f5-80df-9e962b26cff0 in 4.52s
+2025-04-25 22:15:33,613 - INFO - Answered id=5fdd431a-db62-4553-943a-69adc97ef6aa in 2.72s
+2025-04-25 22:15:53,524 - INFO - Answered id=99c1dbba-6a31-4980-999b-632bddcb3a9a in 10.62s
+2025-04-25 22:36:44,543 - root - INFO - Using default multilingual embeddings
+2025-04-25 22:36:51,959 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 22:36:57,533 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-25 22:36:57,552 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-25 22:36:57,561 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-25 22:36:57,566 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 22:37:29,546 - root - INFO - Using default multilingual embeddings
+2025-04-25 22:37:29,546 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 22:37:34,219 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 22:37:34,294 - root - INFO - Simple search found 5 documents in 0.07s
+2025-04-25 22:37:51,803 - root - INFO - Using default multilingual embeddings
+2025-04-25 22:37:51,805 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 22:37:56,918 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 22:37:56,973 - root - INFO - Simple search found 5 documents in 0.05s
+2025-04-25 22:38:06,719 - root - INFO - Using default multilingual embeddings
+2025-04-25 22:38:06,721 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-25 22:38:11,521 - root - INFO - Loaded vectorstore from vectorstore/db_faiss
+2025-04-25 22:38:11,575 - root - INFO - Simple search found 5 documents in 0.05s
+2025-04-27 23:11:44,995 - INFO - Loading HuggingFace embeddings …
+2025-04-27 23:12:21,765 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-27 23:12:34,060 - INFO - Loading faiss with AVX2 support.
+2025-04-27 23:12:34,332 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 23:12:34,344 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 23:12:34,353 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-04-27 23:14:02,564 - INFO - Loading HuggingFace embeddings …
+2025-04-27 23:14:13,250 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-27 23:14:25,102 - INFO - Loading faiss with AVX2 support.
+2025-04-27 23:14:25,124 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 23:14:25,135 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 23:14:25,141 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-04-27 23:15:35,873 - INFO - Loading HuggingFace embeddings …
+2025-04-27 23:15:44,965 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-27 23:15:51,811 - INFO - Loading faiss with AVX2 support.
+2025-04-27 23:15:51,831 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 23:15:51,841 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 23:15:51,850 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-04-27 23:20:16,788 - INFO - Loading HuggingFace embeddings …
+2025-04-27 23:20:26,630 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-27 23:20:33,602 - INFO - Loading faiss with AVX2 support.
+2025-04-27 23:20:33,628 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 23:20:33,641 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 23:20:33,656 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-04-27 23:20:54,642 - INFO - Answered id=1158265e-61c3-41f8-ab31-0559bb75bd46 in 16.72s
+2025-04-27 23:21:33,546 - INFO - Answered id=e9adb4ef-3838-4ec6-b857-68860d84ac16 in 20.48s
+2025-04-27 23:22:11,556 - INFO - Answered id=16eeeb36-6f28-47c5-b6cc-31a8e97669c2 in 16.38s
+2025-04-27 23:25:36,755 - INFO - Loading HuggingFace embeddings …
+2025-04-27 23:25:44,236 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-27 23:25:50,169 - INFO - Loading faiss with AVX2 support.
+2025-04-27 23:25:50,193 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 23:25:50,201 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 23:25:50,208 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-04-27 23:26:00,561 - INFO - Answered id=aae6be3b-f95b-492a-a25a-47571e15fc7c in 6.95s
+2025-04-27 23:26:14,909 - INFO - Answered id=5e2766d3-5f40-4f49-8695-bc5479b9ac29 in 5.17s
+2025-04-27 23:26:29,487 - INFO - Answered id=1e9fb59a-db87-474b-99a1-10b7167e7431 in 6.57s
+2025-04-27 23:59:16,037 - INFO - Loading HuggingFace embeddings …
+2025-04-27 23:59:51,501 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-27 23:59:58,304 - INFO - Loading faiss with AVX2 support.
+2025-04-27 23:59:58,571 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 23:59:58,594 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 23:59:58,628 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-04-28 00:00:54,469 - INFO - Answered id=af2cd8cc-e5df-40a4-8a9b-2967471c3d67 in 10.16s
+2025-04-28 00:01:57,523 - INFO - Answered id=d9af69ff-240b-4421-afb7-a204f06783e3 in 6.30s
+2025-04-29 19:36:50,475 - INFO - Loading HuggingFace embeddings …
+2025-04-29 19:37:54,960 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-04-29 19:38:04,298 - INFO - Loading faiss with AVX2 support.
+2025-04-29 19:38:04,714 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-29 19:38:04,745 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-29 19:38:04,797 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-04-29 20:03:30,581 - INFO - Answered id=1d5d9df7-e494-4645-b452-15152e410c29 in 6.92s
+2025-04-29 20:03:55,417 - INFO - Answered id=4a72f34e-c8d4-449a-9b8e-ebdfe80896c0 in 6.66s
+2025-05-13 14:39:51,711 - INFO - Loading HuggingFace embeddings …
+2025-05-13 14:40:51,560 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-05-13 14:41:00,062 - INFO - Loading faiss with AVX2 support.
+2025-05-13 14:41:00,404 - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-13 14:41:00,419 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-05-13 14:41:00,468 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-05-13 14:41:17,491 - INFO - Answered id=ccd5a06a-beaa-4a8f-84bb-78a5efd94c4d in 7.44s
+2025-05-13 14:41:56,503 - INFO - Answered id=179349fd-3567-4249-92a0-305e3b78afa8 in 5.79s
+2025-05-13 14:54:23,066 - INFO - Loading HuggingFace embeddings …
+2025-05-13 14:55:13,662 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-05-13 14:55:21,140 - INFO - Loading faiss with AVX2 support.
+2025-05-13 14:55:21,531 - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-13 14:55:21,555 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-05-13 14:55:21,615 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-05-13 14:59:00,295 - INFO - Answered id=63ec05d6-cafd-4342-98b2-2c9524c57880 in 6.99s
+2025-05-13 14:59:45,973 - INFO - Answered id=a7159e79-20cc-4d1d-9a9e-b8924a55f6c5 in 7.31s
+2025-05-13 15:00:27,573 - INFO - Answered id=76f2615b-b3d4-40b7-bd19-a6e6d47a8139 in 5.76s
+2025-05-13 15:01:17,913 - INFO - Answered id=1258bd14-d58b-43b6-8383-b0b653056b0d in 5.21s
+2025-05-13 15:03:36,766 - INFO - Answered id=bb160fb8-3cad-4be0-bbd6-ae21740e1f34 in 8.17s
+2025-05-20 17:37:58,996 - INFO - Loading HuggingFace embeddings …
+2025-05-20 17:38:38,844 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-05-20 17:38:45,089 - INFO - Loading faiss with AVX2 support.
+2025-05-20 17:38:45,321 - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-20 17:38:45,334 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-05-20 17:38:45,363 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-05-20 17:40:33,402 - INFO - Answered id=51c2af2a-0c2c-4199-bcf7-82a75ce7e2e7 in 4.04s
+2025-05-20 17:41:11,762 - INFO - Answered id=5a88ca11-126f-4154-95c8-3848a5d7a456 in 4.45s
+2025-05-20 17:41:32,707 - INFO - Answered id=8b78d6f1-19f5-49bd-9a2c-fcbda581f287 in 3.12s
+2025-05-24 00:26:35,731 - INFO - Loading HuggingFace embeddings …
+2025-05-24 00:27:22,573 - INFO - Loading HuggingFace embeddings …
+2025-05-24 00:27:50,497 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-05-24 00:27:58,168 - INFO - Loading faiss with AVX2 support.
+2025-05-24 00:27:58,390 - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-24 00:27:58,403 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-05-24 00:27:58,410 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-05-24 01:18:48,987 - INFO - Loading HuggingFace embeddings …
+2025-05-24 01:18:57,886 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-05-24 01:19:03,649 - INFO - Loading faiss with AVX2 support.
+2025-05-24 01:19:03,676 - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-24 01:19:03,686 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-05-24 01:19:03,692 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-05-27 16:43:39,088 - INFO - Loading HuggingFace embeddings …
+2025-05-27 16:44:18,814 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-05-27 16:44:27,514 - INFO - Loading faiss with AVX2 support.
+2025-05-27 16:44:27,999 - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-27 16:44:28,015 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-05-27 16:44:28,032 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-05-30 20:16:19,411 - INFO - Loading HuggingFace embeddings …
+2025-05-30 20:16:56,098 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-05-30 20:17:02,395 - INFO - Loading faiss with AVX2 support.
+2025-05-30 20:17:02,627 - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-30 20:17:02,652 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-05-30 20:17:02,658 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-05-31 16:21:53,795 - INFO - Loading HuggingFace embeddings …
+2025-05-31 16:22:37,748 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-05-31 16:22:45,879 - INFO - Loading faiss with AVX2 support.
+2025-05-31 16:22:46,182 - INFO - Successfully loaded faiss with AVX2 support.
+2025-05-31 16:22:46,198 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-05-31 16:22:46,211 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-03 13:37:34,463 - INFO - Loading HuggingFace embeddings …
+2025-06-03 13:37:49,493 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-03 13:37:57,762 - INFO - Loading faiss with AVX2 support.
+2025-06-03 13:37:57,794 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-03 13:37:57,807 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-03 13:37:57,855 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-03 13:38:29,746 - INFO - Answered id=4edaf9a6-c7c0-45df-8251-9542742fb346 in 1.52s
+2025-06-03 13:39:04,934 - INFO - Answered id=a5702bd5-068c-47dc-a8cc-0e32db440328 in 3.36s
+2025-06-03 13:39:48,107 - INFO - Answered id=119033db-6d28-44e4-a5b2-004bf37f7914 in 2.86s
+2025-06-03 13:40:21,275 - INFO - Answered id=8435e1af-2f98-41f5-9f8d-b9de542b9585 in 5.16s
+2025-06-03 13:46:22,582 - INFO - Loading HuggingFace embeddings …
+2025-06-03 13:46:30,400 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-03 13:46:35,573 - INFO - Loading faiss with AVX2 support.
+2025-06-03 13:46:35,613 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-03 13:46:35,627 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-03 13:46:35,807 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-03 14:33:35,664 - INFO - Loading HuggingFace embeddings …
+2025-06-03 14:33:43,523 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-03 14:33:50,313 - INFO - Loading faiss with AVX2 support.
+2025-06-03 14:33:50,338 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-03 14:33:50,346 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-03 14:33:50,514 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-03 14:36:36,680 - INFO - Loading HuggingFace embeddings …
+2025-06-03 14:36:44,708 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-03 14:36:51,026 - INFO - Loading faiss with AVX2 support.
+2025-06-03 14:36:51,254 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-03 14:36:51,270 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-03 14:36:51,291 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-03 15:34:34,044 - INFO - Loading HuggingFace embeddings …
+2025-06-03 15:35:05,151 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-03 15:35:10,345 - INFO - Loading faiss with AVX2 support.
+2025-06-03 15:35:10,543 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-03 15:35:10,562 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-03 15:35:10,728 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-03 16:56:56,696 - INFO - Loading HuggingFace embeddings …
+2025-06-03 16:57:06,111 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-03 16:57:12,853 - INFO - Loading faiss with AVX2 support.
+2025-06-03 16:57:12,872 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-03 16:57:12,884 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-03 16:57:13,046 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-04 12:29:40,362 - INFO - Loading HuggingFace embeddings …
+2025-06-04 12:30:50,835 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-04 12:31:00,658 - INFO - Loading faiss with AVX2 support.
+2025-06-04 12:31:01,462 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-04 12:31:01,481 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-04 12:31:01,763 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-04 13:20:55,745 - INFO - Loading HuggingFace embeddings …
+2025-06-04 13:21:23,885 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-04 13:21:29,284 - INFO - Loading faiss with AVX2 support.
+2025-06-04 13:21:29,716 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-04 13:21:29,729 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-04 13:21:29,944 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-04 14:58:00,339 - INFO - Loading HuggingFace embeddings …
+2025-06-04 14:58:07,630 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-04 14:58:14,214 - INFO - Loading faiss with AVX2 support.
+2025-06-04 14:58:14,392 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-04 14:58:14,405 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-04 14:58:14,413 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-05 14:41:51,009 - INFO - Loading HuggingFace embeddings …
+2025-06-05 14:42:47,435 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-05 14:42:56,689 - INFO - Loading faiss with AVX2 support.
+2025-06-05 14:42:57,108 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-05 14:42:57,134 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-05 14:42:57,369 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-05 14:44:54,029 - INFO - Loading HuggingFace embeddings …
+2025-06-05 14:45:01,926 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-05 14:46:19,546 - INFO - Loading faiss with AVX2 support.
+2025-06-05 14:46:19,595 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-05 14:46:19,607 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-05 14:46:19,846 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-05 21:31:18,748 - INFO - Loading HuggingFace embeddings …
+2025-06-05 21:32:14,526 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-05 21:34:09,542 - INFO - Loading faiss with AVX2 support.
+2025-06-05 21:34:10,060 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-05 21:34:10,077 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-05 21:34:10,089 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-05 21:43:08,131 - INFO - Loading HuggingFace embeddings …
+2025-06-05 21:43:16,091 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-05 21:43:23,466 - INFO - Loading faiss with AVX2 support.
+2025-06-05 21:43:23,719 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-05 21:43:23,723 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-05 21:43:23,739 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-05 21:51:17,830 - INFO - Loading HuggingFace embeddings …
+2025-06-05 21:51:25,583 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-05 21:51:32,113 - INFO - Loading faiss with AVX2 support.
+2025-06-05 21:51:32,353 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-05 21:51:32,371 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-05 21:51:32,385 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-06 20:09:53,662 - INFO - Loading HuggingFace embeddings …
+2025-06-06 20:10:47,767 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-06 20:10:54,439 - INFO - Loading faiss with AVX2 support.
+2025-06-06 20:10:54,839 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-06 20:10:54,856 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-06 20:10:55,061 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-06 22:11:14,519 - INFO - Loading HuggingFace embeddings …
+2025-06-06 22:11:28,751 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-06 22:11:36,584 - INFO - Loading faiss with AVX2 support.
+2025-06-06 22:11:36,886 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-06 22:11:36,911 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-06 22:11:36,928 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-06 22:15:26,112 - INFO - Loading HuggingFace embeddings …
+2025-06-06 22:15:34,570 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-06 22:15:41,825 - INFO - Loading faiss with AVX2 support.
+2025-06-06 22:15:41,849 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-06 22:15:41,858 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-06 22:15:42,035 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-08 12:54:46,475 - INFO - Loading HuggingFace embeddings …
+2025-06-08 12:54:55,270 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-08 12:55:00,411 - INFO - Loading faiss with AVX2 support.
+2025-06-08 12:55:00,603 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-08 12:55:00,604 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-08 12:55:00,620 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-10 19:22:36,280 - INFO - Loading HuggingFace embeddings …
+2025-06-10 19:23:04,288 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-10 19:23:09,059 - INFO - Loading faiss with AVX2 support.
+2025-06-10 19:23:09,374 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-10 19:23:09,392 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-10 19:23:09,411 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-10 20:22:23,871 - INFO - Loading HuggingFace embeddings …
+2025-06-10 20:22:30,615 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-10 20:22:35,244 - INFO - Loading faiss with AVX2 support.
+2025-06-10 20:22:35,263 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-10 20:22:35,269 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-10 20:22:35,407 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-10 20:39:29,270 - INFO - Loading HuggingFace embeddings …
+2025-06-10 20:39:37,920 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-10 20:39:43,522 - INFO - Loading faiss with AVX2 support.
+2025-06-10 20:39:43,725 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-10 20:39:43,737 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-10 20:39:43,746 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-11 11:24:55,953 - INFO - Loading HuggingFace embeddings …
+2025-06-11 11:25:57,152 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-11 11:26:05,018 - INFO - Loading faiss with AVX2 support.
+2025-06-11 11:26:05,721 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-11 11:26:05,742 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-11 11:26:05,798 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-11 11:28:18,063 - INFO - Loading HuggingFace embeddings …
+2025-06-11 11:28:32,217 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-11 11:28:40,337 - INFO - Loading faiss with AVX2 support.
+2025-06-11 11:28:40,370 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-11 11:28:40,389 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-11 11:28:40,580 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-11 11:29:41,672 - INFO - Loading HuggingFace embeddings …
+2025-06-11 11:29:49,520 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-11 11:29:56,197 - INFO - Loading faiss with AVX2 support.
+2025-06-11 11:29:56,223 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-11 11:29:56,234 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-11 11:29:56,411 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-11 11:31:01,001 - INFO - Loading HuggingFace embeddings …
+2025-06-11 11:31:08,127 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-11 11:31:14,135 - INFO - Loading faiss with AVX2 support.
+2025-06-11 11:31:14,357 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-11 11:31:14,368 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-11 11:31:14,376 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-11 11:34:30,508 - INFO - Loading HuggingFace embeddings …
+2025-06-11 11:34:45,900 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-11 11:34:53,839 - INFO - Loading faiss with AVX2 support.
+2025-06-11 11:34:53,879 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-11 11:34:53,892 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-11 11:34:54,107 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-11 11:34:57,387 - INFO - Loading HuggingFace embeddings …
+2025-06-11 11:35:16,597 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-11 11:35:26,706 - INFO - Loading faiss with AVX2 support.
+2025-06-11 11:35:26,747 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-11 11:35:26,778 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-11 11:35:26,960 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-11 13:09:42,818 - INFO - Loading HuggingFace embeddings …
+2025-06-11 13:09:50,704 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-11 13:10:26,936 - INFO - Loading faiss with AVX2 support.
+2025-06-11 13:10:26,953 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-11 13:10:26,963 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-11 13:10:27,164 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-11 13:10:29,727 - INFO - Loading HuggingFace embeddings …
+2025-06-11 13:10:37,650 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-11 13:11:38,873 - INFO - Loading faiss with AVX2 support.
+2025-06-11 13:11:38,891 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-11 13:11:38,900 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-06-11 13:11:39,048 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-11 21:26:57,932 - INFO - Loading HuggingFace embeddings …
+2025-06-11 21:28:13,207 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-11 21:28:25,305 - INFO - Loading faiss with AVX2 support.
+2025-06-11 21:28:26,115 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-11 21:28:26,129 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-11 21:28:26,185 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-11 21:28:32,759 - INFO - Loading HuggingFace embeddings …
+2025-06-11 21:29:02,581 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-11 21:29:14,680 - INFO - Loading faiss with AVX2 support.
+2025-06-11 21:29:14,751 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-11 21:29:14,797 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-11 21:29:14,844 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-12 23:36:33,158 - INFO - Loading HuggingFace embeddings …
+2025-06-12 23:37:10,843 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-12 23:37:16,840 - INFO - Loading faiss with AVX2 support.
+2025-06-12 23:37:17,290 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-12 23:37:17,301 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-12 23:37:17,331 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-12 23:37:20,539 - INFO - Loading HuggingFace embeddings …
+2025-06-12 23:37:30,432 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-12 23:37:40,394 - INFO - Loading faiss with AVX2 support.
+2025-06-12 23:37:40,857 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-12 23:37:40,887 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-12 23:37:40,906 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-13 00:00:46,619 - INFO - Loading HuggingFace embeddings …
+2025-06-13 00:02:13,444 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-13 00:02:24,282 - INFO - Loading faiss with AVX2 support.
+2025-06-13 00:02:25,081 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-13 00:02:25,108 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-13 00:02:25,127 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-13 00:02:33,461 - INFO - Loading HuggingFace embeddings …
+2025-06-13 00:02:55,583 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-13 00:03:03,744 - INFO - Loading faiss with AVX2 support.
+2025-06-13 00:03:03,793 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-13 00:03:03,811 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-13 00:03:03,825 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-13 00:14:51,197 - INFO - Loading HuggingFace embeddings …
+2025-06-13 00:15:04,258 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-13 00:15:10,301 - INFO - Loading faiss with AVX2 support.
+2025-06-13 00:15:10,339 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-13 00:15:10,350 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-13 00:15:10,357 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-06-13 00:15:15,814 - INFO - Loading HuggingFace embeddings …
+2025-06-13 00:15:36,014 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-06-13 00:15:41,793 - INFO - Loading faiss with AVX2 support.
+2025-06-13 00:15:41,824 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-13 00:15:41,837 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-13 00:15:41,844 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-07-28 12:37:55,427 - INFO - Loading HuggingFace embeddings …
+2025-07-28 12:38:28,492 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-07-28 12:39:19,698 - INFO - Loading faiss with AVX512 support.
+2025-07-28 12:39:19,698 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-07-28 12:39:19,698 - INFO - Loading faiss with AVX2 support.
+2025-07-28 12:39:20,027 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-28 12:39:20,036 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-28 12:39:20,065 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-07-28 12:39:22,248 - INFO - Loading HuggingFace embeddings …
+2025-07-28 12:39:29,726 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-07-28 12:39:36,514 - INFO - Loading faiss with AVX512 support.
+2025-07-28 12:39:36,515 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-07-28 12:39:36,515 - INFO - Loading faiss with AVX2 support.
+2025-07-28 12:39:36,542 - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-28 12:39:36,550 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-28 12:39:36,558 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 12:10:08,330 - INFO - Loading HuggingFace embeddings …
+2025-08-10 12:10:33,539 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 12:10:40,848 - INFO - Loading faiss with AVX512 support.
+2025-08-10 12:10:40,849 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 12:10:40,849 - INFO - Loading faiss with AVX2 support.
+2025-08-10 12:10:41,051 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 12:10:41,057 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 12:10:41,075 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 12:10:42,906 - INFO - Loading HuggingFace embeddings …
+2025-08-10 12:10:48,545 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 12:10:54,637 - INFO - Loading faiss with AVX512 support.
+2025-08-10 12:10:54,638 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 12:10:54,638 - INFO - Loading faiss with AVX2 support.
+2025-08-10 12:10:54,656 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 12:10:54,662 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 12:10:54,666 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 12:23:53,151 - INFO - Loading HuggingFace embeddings …
+2025-08-10 12:23:58,183 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 12:24:06,340 - INFO - Loading faiss with AVX512 support.
+2025-08-10 12:24:06,340 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 12:24:06,340 - INFO - Loading faiss with AVX2 support.
+2025-08-10 12:24:06,356 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 12:24:06,361 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 12:24:06,365 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 12:25:07,589 - INFO - Loading HuggingFace embeddings …
+2025-08-10 12:25:12,316 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 12:25:18,222 - INFO - Loading faiss with AVX512 support.
+2025-08-10 12:25:18,222 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 12:25:18,222 - INFO - Loading faiss with AVX2 support.
+2025-08-10 12:25:18,241 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 12:25:18,246 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 12:25:18,249 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 12:25:19,950 - INFO - Loading HuggingFace embeddings …
+2025-08-10 12:25:24,618 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 12:25:30,006 - INFO - Loading faiss with AVX512 support.
+2025-08-10 12:25:30,006 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 12:25:30,006 - INFO - Loading faiss with AVX2 support.
+2025-08-10 12:25:30,025 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 12:25:30,029 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 12:25:30,034 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 13:50:32,894 - INFO - Loading HuggingFace embeddings …
+2025-08-10 13:50:39,745 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 13:50:52,207 - INFO - Loading faiss with AVX512 support.
+2025-08-10 13:50:52,208 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 13:50:52,208 - INFO - Loading faiss with AVX2 support.
+2025-08-10 13:50:52,228 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 13:50:52,236 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 13:50:52,276 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 13:50:54,542 - INFO - Loading HuggingFace embeddings …
+2025-08-10 13:51:00,680 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 13:51:24,429 - INFO - Loading faiss with AVX512 support.
+2025-08-10 13:51:24,429 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 13:51:24,429 - INFO - Loading faiss with AVX2 support.
+2025-08-10 13:51:24,447 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 13:51:24,453 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 13:51:24,476 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 14:20:07,452 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:20:14,512 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 14:20:32,713 - INFO - Loading faiss with AVX512 support.
+2025-08-10 14:20:32,713 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 14:20:32,713 - INFO - Loading faiss with AVX2 support.
+2025-08-10 14:20:32,729 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 14:20:32,735 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 14:20:32,754 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 14:20:47,342 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:20:53,455 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 14:21:10,377 - INFO - Loading faiss with AVX512 support.
+2025-08-10 14:21:10,377 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 14:21:10,377 - INFO - Loading faiss with AVX2 support.
+2025-08-10 14:21:10,398 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 14:21:10,405 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 14:21:10,429 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 14:22:02,397 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:22:07,913 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 14:22:25,527 - INFO - Loading faiss with AVX512 support.
+2025-08-10 14:22:25,527 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 14:22:25,527 - INFO - Loading faiss with AVX2 support.
+2025-08-10 14:22:25,545 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 14:22:25,551 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 14:22:25,572 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 14:22:47,736 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:22:52,976 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 14:23:06,169 - INFO - Loading faiss with AVX512 support.
+2025-08-10 14:23:06,169 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 14:23:06,170 - INFO - Loading faiss with AVX2 support.
+2025-08-10 14:23:06,189 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 14:23:06,196 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 14:23:06,217 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 14:30:57,646 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:31:07,361 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 14:31:16,027 - INFO - Loading faiss with AVX512 support.
+2025-08-10 14:31:16,027 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 14:31:16,028 - INFO - Loading faiss with AVX2 support.
+2025-08-10 14:31:16,056 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 14:31:16,067 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 14:31:16,118 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 14:33:13,482 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:33:27,789 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:33:36,916 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 14:33:44,111 - INFO - Loading faiss with AVX512 support.
+2025-08-10 14:33:44,111 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 14:33:44,112 - INFO - Loading faiss with AVX2 support.
+2025-08-10 14:33:44,145 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 14:33:44,158 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 14:33:44,196 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 14:36:25,866 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:36:39,365 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:36:55,128 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:37:11,591 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:37:23,811 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:37:34,503 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 14:37:43,265 - INFO - Loading faiss with AVX512 support.
+2025-08-10 14:37:43,266 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 14:37:43,266 - INFO - Loading faiss with AVX2 support.
+2025-08-10 14:37:43,299 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 14:37:43,308 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 14:37:43,355 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 14:51:36,690 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:51:56,490 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:52:06,986 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 14:52:15,221 - INFO - Loading faiss with AVX512 support.
+2025-08-10 14:52:15,222 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 14:52:15,222 - INFO - Loading faiss with AVX2 support.
+2025-08-10 14:52:15,253 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 14:52:15,263 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 14:52:15,310 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 14:56:45,272 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:56:55,855 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 14:57:04,196 - INFO - Loading faiss with AVX512 support.
+2025-08-10 14:57:04,197 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 14:57:04,197 - INFO - Loading faiss with AVX2 support.
+2025-08-10 14:57:04,226 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 14:57:04,236 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 14:57:04,278 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 14:57:23,834 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:57:34,602 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 14:57:46,750 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:57:56,261 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 14:58:04,722 - INFO - Loading faiss with AVX512 support.
+2025-08-10 14:58:04,723 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 14:58:04,724 - INFO - Loading faiss with AVX2 support.
+2025-08-10 14:58:04,753 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 14:58:04,763 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 14:58:04,810 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 14:58:26,577 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:58:28,878 - INFO - FakeTensor cache stats:
+2025-08-10 14:58:28,879 - INFO -   cache_hits: 0
+2025-08-10 14:58:28,879 - INFO -   cache_misses: 0
+2025-08-10 14:58:33,268 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:58:37,770 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:58:43,847 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:58:53,715 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:59:03,404 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 14:59:11,007 - INFO - Loading faiss with AVX512 support.
+2025-08-10 14:59:11,007 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 14:59:11,008 - INFO - Loading faiss with AVX2 support.
+2025-08-10 14:59:11,033 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 14:59:11,043 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 14:59:11,069 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 14:59:37,154 - INFO - Loading HuggingFace embeddings …
+2025-08-10 14:59:46,515 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 14:59:53,976 - INFO - Loading faiss with AVX512 support.
+2025-08-10 14:59:53,977 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 14:59:53,978 - INFO - Loading faiss with AVX2 support.
+2025-08-10 14:59:54,041 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 14:59:54,099 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 14:59:54,284 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 15:04:28,137 - INFO - Loading HuggingFace embeddings …
+2025-08-10 15:04:38,362 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 15:04:46,491 - INFO - Loading faiss with AVX512 support.
+2025-08-10 15:04:46,492 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 15:04:46,492 - INFO - Loading faiss with AVX2 support.
+2025-08-10 15:04:46,526 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 15:04:46,537 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 15:04:46,576 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 15:06:58,075 - INFO - Loading HuggingFace embeddings …
+2025-08-10 15:07:08,692 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 15:07:18,917 - INFO - Loading faiss with AVX512 support.
+2025-08-10 15:07:18,918 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 15:07:18,918 - INFO - Loading faiss with AVX2 support.
+2025-08-10 15:07:18,953 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 15:07:18,964 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 15:07:18,993 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 15:07:28,616 - INFO - Loading HuggingFace embeddings …
+2025-08-10 15:07:39,291 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-10 15:07:48,312 - INFO - Loading faiss with AVX512 support.
+2025-08-10 15:07:48,313 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-10 15:07:48,313 - INFO - Loading faiss with AVX2 support.
+2025-08-10 15:07:48,369 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-10 15:07:48,385 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-10 15:07:48,459 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-10 15:07:52,939 - INFO - Loading HuggingFace embeddings …
+2025-08-12 12:32:05,688 - INFO - Loading HuggingFace embeddings …
+2025-08-12 12:33:14,016 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 12:33:35,598 - INFO - Loading faiss with AVX512 support.
+2025-08-12 12:33:35,600 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 12:33:35,600 - INFO - Loading faiss with AVX2 support.
+2025-08-12 12:33:36,380 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 12:33:36,404 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 12:33:36,556 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 12:33:41,745 - INFO - Loading HuggingFace embeddings …
+2025-08-12 12:33:54,363 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 12:34:07,991 - INFO - Loading faiss with AVX512 support.
+2025-08-12 12:34:07,992 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 12:34:07,992 - INFO - Loading faiss with AVX2 support.
+2025-08-12 12:34:08,030 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 12:34:08,041 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 12:34:08,082 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 12:46:09,081 - INFO - Loading HuggingFace embeddings …
+2025-08-12 12:46:19,141 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 12:46:31,969 - INFO - Loading faiss with AVX512 support.
+2025-08-12 12:46:31,970 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 12:46:31,970 - INFO - Loading faiss with AVX2 support.
+2025-08-12 12:46:32,000 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 12:46:32,011 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 12:46:32,044 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 12:46:35,573 - INFO - Loading HuggingFace embeddings …
+2025-08-12 12:46:45,250 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 12:46:55,191 - INFO - Loading faiss with AVX512 support.
+2025-08-12 12:46:55,191 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 12:46:55,191 - INFO - Loading faiss with AVX2 support.
+2025-08-12 12:46:55,215 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 12:46:55,223 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 12:46:55,274 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 12:56:26,325 - INFO - Loading HuggingFace embeddings …
+2025-08-12 12:56:32,512 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 12:56:45,838 - INFO - Loading faiss with AVX512 support.
+2025-08-12 12:56:45,839 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 12:56:45,839 - INFO - Loading faiss with AVX2 support.
+2025-08-12 12:56:45,860 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 12:56:45,868 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 12:56:45,888 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 13:06:07,764 - INFO - Loading HuggingFace embeddings …
+2025-08-12 13:06:12,964 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 13:06:29,663 - INFO - Loading HuggingFace embeddings …
+2025-08-12 13:06:34,747 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 13:06:48,828 - INFO - Loading faiss with AVX512 support.
+2025-08-12 13:06:48,828 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 13:06:48,828 - INFO - Loading faiss with AVX2 support.
+2025-08-12 13:06:48,846 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 13:06:48,853 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 13:06:48,874 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 13:07:26,106 - INFO - Loading HuggingFace embeddings …
+2025-08-12 13:07:31,386 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 13:07:43,405 - INFO - Loading faiss with AVX512 support.
+2025-08-12 13:07:43,406 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 13:07:43,406 - INFO - Loading faiss with AVX2 support.
+2025-08-12 13:07:43,424 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 13:07:43,431 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 13:07:43,452 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 13:15:44,914 - INFO - Loading HuggingFace embeddings …
+2025-08-12 13:15:50,278 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 13:16:06,052 - INFO - Loading faiss with AVX512 support.
+2025-08-12 13:16:06,053 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 13:16:06,053 - INFO - Loading faiss with AVX2 support.
+2025-08-12 13:16:06,072 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 13:16:06,078 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 13:16:06,103 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 13:16:50,994 - INFO - Loading HuggingFace embeddings …
+2025-08-12 13:16:56,769 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 13:17:11,446 - INFO - Loading HuggingFace embeddings …
+2025-08-12 13:17:12,872 - INFO - FakeTensor cache stats:
+2025-08-12 13:17:12,873 - INFO -   cache_hits: 0
+2025-08-12 13:17:12,873 - INFO -   cache_misses: 0
+2025-08-12 13:17:15,334 - INFO - Loading HuggingFace embeddings …
+2025-08-12 13:17:20,781 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 13:17:33,561 - INFO - Loading faiss with AVX512 support.
+2025-08-12 13:17:33,562 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 13:17:33,562 - INFO - Loading faiss with AVX2 support.
+2025-08-12 13:17:33,580 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 13:17:33,585 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 13:17:33,609 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 13:18:35,331 - INFO - Loading HuggingFace embeddings …
+2025-08-12 13:18:40,278 - INFO - Loading HuggingFace embeddings …
+2025-08-12 13:18:45,956 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 13:19:03,060 - INFO - Loading faiss with AVX512 support.
+2025-08-12 13:19:03,060 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 13:19:03,060 - INFO - Loading faiss with AVX2 support.
+2025-08-12 13:19:03,078 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 13:19:03,084 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 13:19:03,105 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 13:20:03,035 - INFO - Loading HuggingFace embeddings …
+2025-08-12 13:20:08,425 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 13:20:23,466 - INFO - Loading faiss with AVX512 support.
+2025-08-12 13:20:23,466 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 13:20:23,466 - INFO - Loading faiss with AVX2 support.
+2025-08-12 13:20:23,483 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 13:20:23,490 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 13:20:23,511 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 13:37:41,696 - INFO - Loading HuggingFace embeddings …
+2025-08-12 13:37:47,217 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 13:38:01,793 - INFO - Loading faiss with AVX512 support.
+2025-08-12 13:38:01,794 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 13:38:01,794 - INFO - Loading faiss with AVX2 support.
+2025-08-12 13:38:01,814 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 13:38:01,822 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 13:38:01,847 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 13:56:06,491 - INFO - Loading HuggingFace embeddings …
+2025-08-12 13:56:11,488 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 13:56:21,006 - INFO - Loading faiss with AVX512 support.
+2025-08-12 13:56:21,007 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 13:56:21,007 - INFO - Loading faiss with AVX2 support.
+2025-08-12 13:56:21,024 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 13:56:21,029 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 13:56:21,048 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 14:00:02,484 - INFO - Loading HuggingFace embeddings …
+2025-08-12 14:00:07,764 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 14:00:23,413 - INFO - Loading faiss with AVX512 support.
+2025-08-12 14:00:23,413 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 14:00:23,413 - INFO - Loading faiss with AVX2 support.
+2025-08-12 14:00:23,429 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 14:00:23,435 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 14:00:23,453 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 14:00:29,230 - INFO - Loading HuggingFace embeddings …
+2025-08-12 14:00:36,983 - INFO - Loading HuggingFace embeddings …
+2025-08-12 14:00:41,914 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 14:00:59,019 - INFO - Loading faiss with AVX512 support.
+2025-08-12 14:00:59,019 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 14:00:59,019 - INFO - Loading faiss with AVX2 support.
+2025-08-12 14:00:59,049 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 14:00:59,059 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 14:00:59,090 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 14:03:18,277 - INFO - Loading HuggingFace embeddings …
+2025-08-12 14:03:23,309 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 14:03:39,832 - INFO - Loading faiss with AVX512 support.
+2025-08-12 14:03:39,832 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 14:03:39,832 - INFO - Loading faiss with AVX2 support.
+2025-08-12 14:03:39,848 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 14:03:39,854 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 14:03:39,874 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 14:08:17,420 - INFO - Loading HuggingFace embeddings …
+2025-08-12 14:08:23,139 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 14:08:29,718 - INFO - Loading HuggingFace embeddings …
+2025-08-12 14:08:35,451 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 14:08:58,319 - INFO - Loading HuggingFace embeddings …
+2025-08-12 14:09:03,768 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 14:09:15,750 - INFO - Loading faiss with AVX512 support.
+2025-08-12 14:09:15,750 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 14:09:15,750 - INFO - Loading faiss with AVX2 support.
+2025-08-12 14:09:15,765 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 14:09:15,770 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 14:09:15,788 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 15:10:09,063 - INFO - Loading HuggingFace embeddings …
+2025-08-12 15:10:16,431 - INFO - Loading HuggingFace embeddings …
+2025-08-12 15:10:42,332 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 15:10:51,297 - INFO - Loading faiss with AVX512 support.
+2025-08-12 15:10:51,298 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 15:10:51,298 - INFO - Loading faiss with AVX2 support.
+2025-08-12 15:10:51,538 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 15:10:51,544 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 15:10:51,580 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 15:11:02,009 - INFO - Loading HuggingFace embeddings …
+2025-08-12 15:11:06,959 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 15:11:17,761 - INFO - Loading faiss with AVX512 support.
+2025-08-12 15:11:17,762 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 15:11:17,762 - INFO - Loading faiss with AVX2 support.
+2025-08-12 15:11:17,779 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 15:11:17,784 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 15:11:17,804 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 20:21:42,644 - INFO - Loading HuggingFace embeddings …
+2025-08-12 20:21:47,850 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 20:21:58,644 - INFO - Loading faiss with AVX512 support.
+2025-08-12 20:21:58,644 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 20:21:58,645 - INFO - Loading faiss with AVX2 support.
+2025-08-12 20:21:58,667 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 20:21:58,673 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 20:21:58,693 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 20:22:00,541 - INFO - Loading HuggingFace embeddings …
+2025-08-12 20:22:05,418 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 20:22:20,087 - INFO - Loading faiss with AVX512 support.
+2025-08-12 20:22:20,087 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 20:22:20,088 - INFO - Loading faiss with AVX2 support.
+2025-08-12 20:22:20,104 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 20:22:20,109 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 20:22:20,131 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 20:28:19,963 - INFO - Loading HuggingFace embeddings …
+2025-08-12 20:28:24,728 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 20:28:30,464 - INFO - Loading faiss with AVX512 support.
+2025-08-12 20:28:30,464 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 20:28:30,465 - INFO - Loading faiss with AVX2 support.
+2025-08-12 20:28:30,480 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 20:28:30,484 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 20:28:30,503 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 20:28:32,323 - INFO - Loading HuggingFace embeddings …
+2025-08-12 20:28:37,212 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 20:28:48,839 - INFO - Loading faiss with AVX512 support.
+2025-08-12 20:28:48,839 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 20:28:48,840 - INFO - Loading faiss with AVX2 support.
+2025-08-12 20:28:48,855 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 20:28:48,859 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 20:28:48,878 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 20:45:30,732 - INFO - Loading HuggingFace embeddings …
+2025-08-12 20:45:35,828 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 20:45:40,527 - INFO - Loading HuggingFace embeddings …
+2025-08-12 20:45:45,943 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 20:45:58,096 - INFO - Loading HuggingFace embeddings …
+2025-08-12 20:46:03,278 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 20:46:19,850 - INFO - Loading faiss with AVX512 support.
+2025-08-12 20:46:19,850 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 20:46:19,851 - INFO - Loading faiss with AVX2 support.
+2025-08-12 20:46:19,870 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 20:46:19,877 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 20:46:19,897 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 20:48:23,989 - INFO - Loading HuggingFace embeddings …
+2025-08-12 20:48:29,552 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 20:48:44,728 - INFO - Loading HuggingFace embeddings …
+2025-08-12 20:48:50,577 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 20:49:01,759 - INFO - Loading faiss with AVX512 support.
+2025-08-12 20:49:01,760 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 20:49:01,760 - INFO - Loading faiss with AVX2 support.
+2025-08-12 20:49:01,786 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 20:49:01,794 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 20:49:01,830 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 20:49:05,689 - INFO - Loading HuggingFace embeddings …
+2025-08-12 20:49:11,285 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 20:49:19,152 - INFO - Loading HuggingFace embeddings …
+2025-08-12 20:49:24,727 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 20:49:38,385 - INFO - Loading faiss with AVX512 support.
+2025-08-12 20:49:38,386 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 20:49:38,386 - INFO - Loading faiss with AVX2 support.
+2025-08-12 20:49:38,407 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 20:49:38,413 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 20:49:38,433 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 21:27:30,006 - INFO - Loading HuggingFace embeddings …
+2025-08-12 21:27:42,652 - INFO - Loading HuggingFace embeddings …
+2025-08-12 21:27:55,712 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 21:28:24,948 - INFO - Loading faiss with AVX512 support.
+2025-08-12 21:28:24,949 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 21:28:24,950 - INFO - Loading faiss with AVX2 support.
+2025-08-12 21:28:24,987 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 21:28:24,999 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 21:28:25,041 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 21:30:20,100 - INFO - Loading HuggingFace embeddings …
+2025-08-12 21:30:22,657 - INFO - FakeTensor cache stats:
+2025-08-12 21:30:22,658 - INFO -   cache_hits: 0
+2025-08-12 21:30:22,659 - INFO -   cache_misses: 0
+2025-08-12 21:30:27,888 - INFO - Loading HuggingFace embeddings …
+2025-08-12 21:30:38,377 - INFO - Loading HuggingFace embeddings …
+2025-08-12 21:30:42,082 - INFO - FakeTensor cache stats:
+2025-08-12 21:30:42,083 - INFO -   cache_hits: 0
+2025-08-12 21:30:42,084 - INFO -   cache_misses: 0
+2025-08-12 21:30:47,478 - INFO - Loading HuggingFace embeddings …
+2025-08-12 21:30:58,907 - INFO - Loading HuggingFace embeddings …
+2025-08-12 21:31:12,096 - INFO - Loading HuggingFace embeddings …
+2025-08-12 21:31:33,256 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 21:31:50,219 - INFO - Loading faiss with AVX512 support.
+2025-08-12 21:31:50,220 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 21:31:50,221 - INFO - Loading faiss with AVX2 support.
+2025-08-12 21:31:50,293 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 21:31:50,317 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 21:31:50,416 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 21:40:32,118 - INFO - Loading HuggingFace embeddings …
+2025-08-12 21:40:45,287 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 21:41:00,078 - INFO - Loading faiss with AVX512 support.
+2025-08-12 21:41:00,079 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 21:41:00,079 - INFO - Loading faiss with AVX2 support.
+2025-08-12 21:41:00,122 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 21:41:00,141 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 21:41:00,212 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 21:43:10,893 - INFO - Loading HuggingFace embeddings …
+2025-08-12 21:43:23,258 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 21:43:36,348 - INFO - Loading faiss with AVX512 support.
+2025-08-12 21:43:36,349 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 21:43:36,349 - INFO - Loading faiss with AVX2 support.
+2025-08-12 21:43:36,386 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 21:43:36,399 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 21:43:36,443 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 21:44:49,810 - INFO - Loading HuggingFace embeddings …
+2025-08-12 21:45:05,056 - INFO - Loading HuggingFace embeddings …
+2025-08-12 21:45:16,714 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 21:45:29,825 - INFO - Loading faiss with AVX512 support.
+2025-08-12 21:45:29,826 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 21:45:29,826 - INFO - Loading faiss with AVX2 support.
+2025-08-12 21:45:29,862 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 21:45:29,873 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 21:45:29,906 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 21:50:17,264 - INFO - Loading HuggingFace embeddings …
+2025-08-12 21:50:28,277 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 21:50:56,459 - INFO - Loading faiss with AVX512 support.
+2025-08-12 21:50:56,460 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 21:50:56,460 - INFO - Loading faiss with AVX2 support.
+2025-08-12 21:50:56,494 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 21:50:56,507 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 21:50:56,546 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 22:17:42,573 - INFO - Loading HuggingFace embeddings …
+2025-08-12 22:17:55,431 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 22:18:11,360 - INFO - Loading faiss with AVX512 support.
+2025-08-12 22:18:11,361 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 22:18:11,362 - INFO - Loading faiss with AVX2 support.
+2025-08-12 22:18:11,398 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 22:18:11,407 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 22:18:11,451 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 22:18:38,447 - INFO - Loading HuggingFace embeddings …
+2025-08-12 22:19:04,764 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 22:19:19,805 - INFO - Loading faiss with AVX512 support.
+2025-08-12 22:19:19,807 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 22:19:19,808 - INFO - Loading faiss with AVX2 support.
+2025-08-12 22:19:19,852 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 22:19:19,867 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 22:19:19,927 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 22:25:29,528 - INFO - Loading HuggingFace embeddings …
+2025-08-12 22:25:55,945 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 22:26:12,192 - INFO - Loading faiss with AVX512 support.
+2025-08-12 22:26:12,194 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 22:26:12,195 - INFO - Loading faiss with AVX2 support.
+2025-08-12 22:26:12,266 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 22:26:12,291 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 22:26:12,391 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 22:29:37,792 - INFO - Loading HuggingFace embeddings …
+2025-08-12 22:29:48,147 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 22:30:04,291 - INFO - Loading faiss with AVX512 support.
+2025-08-12 22:30:04,292 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 22:30:04,292 - INFO - Loading faiss with AVX2 support.
+2025-08-12 22:30:04,392 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 22:30:04,404 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 22:30:04,446 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 22:30:19,093 - INFO - Loading HuggingFace embeddings …
+2025-08-12 22:30:29,128 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 22:30:37,770 - INFO - Loading faiss with AVX512 support.
+2025-08-12 22:30:37,771 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 22:30:37,771 - INFO - Loading faiss with AVX2 support.
+2025-08-12 22:30:37,800 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 22:30:37,808 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 22:30:37,845 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 22:31:14,782 - INFO - Loading HuggingFace embeddings …
+2025-08-12 22:31:26,230 - INFO - Loading HuggingFace embeddings …
+2025-08-12 22:31:36,591 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 22:31:45,829 - INFO - Loading faiss with AVX512 support.
+2025-08-12 22:31:45,830 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 22:31:45,830 - INFO - Loading faiss with AVX2 support.
+2025-08-12 22:31:45,862 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 22:31:45,871 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 22:31:45,911 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 22:32:31,984 - INFO - Loading HuggingFace embeddings …
+2025-08-12 22:32:42,183 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 22:32:51,211 - INFO - Loading faiss with AVX512 support.
+2025-08-12 22:32:51,212 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 22:32:51,212 - INFO - Loading faiss with AVX2 support.
+2025-08-12 22:32:51,253 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 22:32:51,267 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 22:32:51,319 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 22:45:56,814 - INFO - Loading HuggingFace embeddings …
+2025-08-12 22:46:11,104 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 22:46:18,988 - INFO - Loading HuggingFace embeddings …
+2025-08-12 22:46:32,656 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 22:46:48,129 - INFO - Loading faiss with AVX512 support.
+2025-08-12 22:46:48,129 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 22:46:48,130 - INFO - Loading faiss with AVX2 support.
+2025-08-12 22:46:48,166 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 22:46:48,182 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 22:46:48,229 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-12 22:48:29,538 - INFO - Loading HuggingFace embeddings …
+2025-08-12 22:48:39,741 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-12 22:48:49,672 - INFO - Loading faiss with AVX512 support.
+2025-08-12 22:48:49,673 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-12 22:48:49,674 - INFO - Loading faiss with AVX2 support.
+2025-08-12 22:48:49,705 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-12 22:48:49,718 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-12 22:48:49,758 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-13 14:11:52,717 - INFO - Loading HuggingFace embeddings …
+2025-08-13 14:12:18,441 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-13 14:12:36,560 - INFO - Loading faiss with AVX512 support.
+2025-08-13 14:12:36,561 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-13 14:12:36,561 - INFO - Loading faiss with AVX2 support.
+2025-08-13 14:12:36,861 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-13 14:12:36,870 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-13 14:12:36,921 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-13 14:12:39,583 - INFO - Loading HuggingFace embeddings …
+2025-08-13 14:12:48,232 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-13 14:12:57,033 - INFO - Loading faiss with AVX512 support.
+2025-08-13 14:12:57,033 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-13 14:12:57,034 - INFO - Loading faiss with AVX2 support.
+2025-08-13 14:12:57,067 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-13 14:12:57,073 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-13 14:12:57,101 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-13 14:25:04,327 - INFO - Loading HuggingFace embeddings …
+2025-08-13 14:25:09,431 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-13 14:25:20,305 - INFO - Loading faiss with AVX512 support.
+2025-08-13 14:25:20,305 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-13 14:25:20,305 - INFO - Loading faiss with AVX2 support.
+2025-08-13 14:25:20,321 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-13 14:25:20,326 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-13 14:25:20,346 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-13 14:31:51,243 - INFO - Loading HuggingFace embeddings …
+2025-08-13 14:31:59,063 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-13 14:32:12,743 - INFO - Loading faiss with AVX512 support.
+2025-08-13 14:32:12,744 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-13 14:32:12,744 - INFO - Loading faiss with AVX2 support.
+2025-08-13 14:32:12,775 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-13 14:32:12,785 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-13 14:32:12,819 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-13 14:33:34,348 - INFO - Loading HuggingFace embeddings …
+2025-08-13 14:33:39,622 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-13 14:33:53,454 - INFO - Loading faiss with AVX512 support.
+2025-08-13 14:33:53,455 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-13 14:33:53,455 - INFO - Loading faiss with AVX2 support.
+2025-08-13 14:33:53,474 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-13 14:33:53,478 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-13 14:33:53,501 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-13 14:39:49,143 - INFO - Loading HuggingFace embeddings …
+2025-08-13 14:39:54,934 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-13 14:40:10,659 - INFO - Loading faiss with AVX512 support.
+2025-08-13 14:40:10,660 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-13 14:40:10,660 - INFO - Loading faiss with AVX2 support.
+2025-08-13 14:40:10,679 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-13 14:40:10,687 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-13 14:40:10,707 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-13 14:40:24,378 - INFO - Loading HuggingFace embeddings …
+2025-08-13 14:40:30,302 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-13 14:40:42,074 - INFO - Loading faiss with AVX512 support.
+2025-08-13 14:40:42,075 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-13 14:40:42,075 - INFO - Loading faiss with AVX2 support.
+2025-08-13 14:40:42,091 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-13 14:40:42,096 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-13 14:40:42,118 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-13 14:40:59,502 - INFO - Loading HuggingFace embeddings …
+2025-08-13 14:41:04,700 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-13 14:41:16,590 - INFO - Loading faiss with AVX512 support.
+2025-08-13 14:41:16,591 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-13 14:41:16,591 - INFO - Loading faiss with AVX2 support.
+2025-08-13 14:41:16,615 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-13 14:41:16,621 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-13 14:41:16,646 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-13 14:43:40,652 - INFO - Loading HuggingFace embeddings …
+2025-08-13 14:43:45,844 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-13 14:43:55,104 - INFO - Loading faiss with AVX512 support.
+2025-08-13 14:43:55,104 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-13 14:43:55,104 - INFO - Loading faiss with AVX2 support.
+2025-08-13 14:43:55,124 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-13 14:43:55,130 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-13 14:43:55,150 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-13 14:52:53,928 - INFO - Loading HuggingFace embeddings …
+2025-08-13 14:53:00,247 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-13 14:53:12,457 - INFO - Loading faiss with AVX512 support.
+2025-08-13 14:53:12,457 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-13 14:53:12,458 - INFO - Loading faiss with AVX2 support.
+2025-08-13 14:53:12,482 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-13 14:53:12,490 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-13 14:53:12,522 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-13 14:53:39,502 - INFO - Loading HuggingFace embeddings …
+2025-08-13 14:53:45,094 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-13 14:53:51,776 - INFO - Loading HuggingFace embeddings …
+2025-08-13 14:54:00,846 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-13 14:54:21,207 - INFO - Loading faiss with AVX512 support.
+2025-08-13 14:54:21,208 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-13 14:54:21,208 - INFO - Loading faiss with AVX2 support.
+2025-08-13 14:54:21,243 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-13 14:54:21,252 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-13 14:54:21,281 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-13 14:59:53,116 - INFO - Loading HuggingFace embeddings …
+2025-08-13 15:00:01,937 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-13 15:00:18,388 - INFO - Loading faiss with AVX512 support.
+2025-08-13 15:00:18,389 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-13 15:00:18,389 - INFO - Loading faiss with AVX2 support.
+2025-08-13 15:00:18,421 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-13 15:00:18,432 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-13 15:00:18,466 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-13 19:16:40,665 - INFO - Loading HuggingFace embeddings …
+2025-08-13 19:18:05,962 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-13 19:18:25,067 - INFO - Loading faiss with AVX512 support.
+2025-08-13 19:18:25,069 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-13 19:18:25,069 - INFO - Loading faiss with AVX2 support.
+2025-08-13 19:18:25,878 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-13 19:18:25,902 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-13 19:18:26,060 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-13 19:18:30,437 - INFO - Loading HuggingFace embeddings …
+2025-08-13 19:18:52,746 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-13 19:19:05,540 - INFO - Loading faiss with AVX512 support.
+2025-08-13 19:19:05,542 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-13 19:19:05,543 - INFO - Loading faiss with AVX2 support.
+2025-08-13 19:19:05,629 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-13 19:19:05,654 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-13 19:19:05,751 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-13 19:21:52,802 - INFO - Loading HuggingFace embeddings …
+2025-08-13 19:22:09,025 - INFO - Loading HuggingFace embeddings …
+2025-08-13 19:22:17,367 - INFO - Loading HuggingFace embeddings …
+2025-08-13 19:22:31,732 - INFO - Loading HuggingFace embeddings …
+2025-08-13 19:22:44,519 - INFO - Loading HuggingFace embeddings …
+2025-08-13 19:22:57,285 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-13 19:23:12,028 - INFO - Loading faiss with AVX512 support.
+2025-08-13 19:23:12,030 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-13 19:23:12,031 - INFO - Loading faiss with AVX2 support.
+2025-08-13 19:23:12,105 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-13 19:23:12,133 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-13 19:23:12,239 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-13 19:23:15,631 - INFO - Loading HuggingFace embeddings …
+2025-08-13 19:23:35,080 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-13 19:23:51,015 - INFO - Loading faiss with AVX512 support.
+2025-08-13 19:23:51,016 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-13 19:23:51,017 - INFO - Loading faiss with AVX2 support.
+2025-08-13 19:23:51,080 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-13 19:23:51,107 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-13 19:23:51,217 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-14 13:25:56,590 - INFO - Loading HuggingFace embeddings …
+2025-08-14 13:26:03,933 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 13:26:37,129 - INFO - Loading faiss with AVX512 support.
+2025-08-14 13:26:37,129 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-14 13:26:37,130 - INFO - Loading faiss with AVX2 support.
+2025-08-14 13:26:37,288 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-14 13:26:37,303 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-14 13:26:37,345 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-14 13:26:39,683 - INFO - Loading HuggingFace embeddings …
+2025-08-14 13:26:44,792 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 13:26:54,558 - INFO - Loading faiss with AVX512 support.
+2025-08-14 13:26:54,558 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-14 13:26:54,558 - INFO - Loading faiss with AVX2 support.
+2025-08-14 13:26:54,594 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-14 13:26:54,602 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-14 13:26:54,647 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-14 13:31:40,557 - INFO - Loading HuggingFace embeddings …
+2025-08-14 13:31:46,196 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 13:31:55,795 - INFO - Loading faiss with AVX512 support.
+2025-08-14 13:31:55,795 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-14 13:31:55,795 - INFO - Loading faiss with AVX2 support.
+2025-08-14 13:31:55,822 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-14 13:31:55,831 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-14 13:31:55,864 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-14 13:32:02,453 - INFO - Loading HuggingFace embeddings …
+2025-08-14 13:32:08,757 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 13:32:14,291 - INFO - Loading HuggingFace embeddings …
+2025-08-14 13:32:21,039 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 13:32:28,763 - INFO - Loading HuggingFace embeddings …
+2025-08-14 13:32:34,693 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 13:32:43,622 - INFO - Loading faiss with AVX512 support.
+2025-08-14 13:32:43,623 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-14 13:32:43,623 - INFO - Loading faiss with AVX2 support.
+2025-08-14 13:32:43,644 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-14 13:32:43,651 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-14 13:32:43,675 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-14 13:33:05,842 - INFO - Loading HuggingFace embeddings …
+2025-08-14 13:33:12,501 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 13:33:21,223 - INFO - Loading faiss with AVX512 support.
+2025-08-14 13:33:21,223 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-14 13:33:21,224 - INFO - Loading faiss with AVX2 support.
+2025-08-14 13:33:21,245 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-14 13:33:21,251 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-14 13:33:21,276 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-14 13:40:11,011 - INFO - Loading HuggingFace embeddings …
+2025-08-14 13:40:18,000 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 13:40:25,796 - INFO - Loading faiss with AVX512 support.
+2025-08-14 13:40:25,797 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-14 13:40:25,797 - INFO - Loading faiss with AVX2 support.
+2025-08-14 13:40:25,820 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-14 13:40:25,828 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-14 13:40:25,858 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-14 13:53:44,723 - INFO - Loading HuggingFace embeddings …
+2025-08-14 13:54:15,855 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 13:54:29,759 - INFO - Loading faiss with AVX512 support.
+2025-08-14 13:54:29,760 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-14 13:54:29,760 - INFO - Loading faiss with AVX2 support.
+2025-08-14 13:54:30,014 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-14 13:54:30,021 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-14 13:54:30,062 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-14 14:06:34,661 - INFO - Loading HuggingFace embeddings …
+2025-08-14 14:06:42,796 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 14:07:04,714 - INFO - Loading faiss with AVX512 support.
+2025-08-14 14:07:04,714 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-14 14:07:04,715 - INFO - Loading faiss with AVX2 support.
+2025-08-14 14:07:04,744 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-14 14:07:04,755 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-14 14:07:04,789 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-14 16:12:18,470 - INFO - Loading HuggingFace embeddings …
+2025-08-14 16:12:45,343 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 16:13:01,216 - INFO - Loading faiss with AVX512 support.
+2025-08-14 16:13:01,217 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-14 16:13:01,217 - INFO - Loading faiss with AVX2 support.
+2025-08-14 16:13:01,714 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-14 16:13:01,721 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-14 16:13:01,787 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-14 16:13:04,142 - INFO - Loading HuggingFace embeddings …
+2025-08-14 16:13:10,338 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 16:13:24,929 - INFO - Loading faiss with AVX512 support.
+2025-08-14 16:13:24,930 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-14 16:13:24,931 - INFO - Loading faiss with AVX2 support.
+2025-08-14 16:13:24,994 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-14 16:13:25,044 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-14 16:13:25,085 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-14 16:24:42,334 - INFO - Loading HuggingFace embeddings …
+2025-08-14 16:24:49,503 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 16:25:06,465 - INFO - Loading HuggingFace embeddings …
+2025-08-14 16:25:13,229 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 16:25:20,204 - INFO - Loading faiss with AVX512 support.
+2025-08-14 16:25:20,205 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-14 16:25:20,205 - INFO - Loading faiss with AVX2 support.
+2025-08-14 16:25:20,230 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-14 16:25:20,238 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-14 16:25:20,265 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-14 16:36:24,441 - INFO - Loading HuggingFace embeddings …
+2025-08-14 16:36:37,501 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 16:36:49,590 - INFO - Loading faiss with AVX512 support.
+2025-08-14 16:36:49,591 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-14 16:36:49,592 - INFO - Loading faiss with AVX2 support.
+2025-08-14 16:36:49,636 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-14 16:36:49,650 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-14 16:36:49,697 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-14 16:43:08,881 - INFO - Loading HuggingFace embeddings …
+2025-08-14 16:43:18,498 - INFO - Loading HuggingFace embeddings …
+2025-08-14 16:43:30,091 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 16:43:47,745 - INFO - Loading faiss with AVX512 support.
+2025-08-14 16:43:47,746 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-14 16:43:47,746 - INFO - Loading faiss with AVX2 support.
+2025-08-14 16:43:47,782 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-14 16:43:47,793 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-14 16:43:47,830 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-14 16:46:38,778 - INFO - Loading HuggingFace embeddings …
+2025-08-14 16:46:50,429 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 16:47:09,186 - INFO - Loading faiss with AVX512 support.
+2025-08-14 16:47:09,188 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-14 16:47:09,190 - INFO - Loading faiss with AVX2 support.
+2025-08-14 16:47:09,295 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-14 16:47:09,339 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-14 16:47:09,460 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-14 16:47:15,515 - INFO - Loading HuggingFace embeddings …
+2025-08-14 16:47:30,804 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 16:47:48,051 - INFO - Loading faiss with AVX512 support.
+2025-08-14 16:47:48,053 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-14 16:47:48,054 - INFO - Loading faiss with AVX2 support.
+2025-08-14 16:47:48,168 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-14 16:47:48,322 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-14 16:47:48,428 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-14 16:52:10,131 - INFO - Loading HuggingFace embeddings …
+2025-08-14 16:52:39,382 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 16:53:05,445 - INFO - Loading faiss with AVX512 support.
+2025-08-14 16:53:05,446 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-14 16:53:05,447 - INFO - Loading faiss with AVX2 support.
+2025-08-14 16:53:05,479 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-14 16:53:05,493 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-14 16:53:05,533 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-14 16:54:49,799 - INFO - Loading HuggingFace embeddings …
+2025-08-14 16:55:10,017 - INFO - Loading HuggingFace embeddings …
+2025-08-14 16:55:23,857 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 16:55:35,842 - INFO - Loading HuggingFace embeddings …
+2025-08-14 16:55:52,841 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 16:56:11,774 - INFO - Loading faiss with AVX512 support.
+2025-08-14 16:56:11,775 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-14 16:56:11,775 - INFO - Loading faiss with AVX2 support.
+2025-08-14 16:56:11,803 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-14 16:56:11,816 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-14 16:56:11,851 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-14 17:27:00,742 - INFO - Loading HuggingFace embeddings …
+2025-08-14 17:27:14,868 - INFO - Loading HuggingFace embeddings …
+2025-08-14 17:29:01,067 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-14 17:29:19,845 - INFO - Loading faiss with AVX512 support.
+2025-08-14 17:29:19,847 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-14 17:29:19,848 - INFO - Loading faiss with AVX2 support.
+2025-08-14 17:29:20,869 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-14 17:29:20,898 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-14 17:29:21,084 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-15 13:09:22,940 - INFO - Loading HuggingFace embeddings …
+2025-08-15 13:10:42,202 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-15 13:10:53,708 - INFO - Loading faiss with AVX512 support.
+2025-08-15 13:10:53,709 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-15 13:10:53,710 - INFO - Loading faiss with AVX2 support.
+2025-08-15 13:10:54,275 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-15 13:10:54,289 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-15 13:10:54,410 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-15 13:10:59,520 - INFO - Loading HuggingFace embeddings …
+2025-08-15 13:11:12,529 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-15 13:11:22,080 - INFO - Loading faiss with AVX512 support.
+2025-08-15 13:11:22,081 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-15 13:11:22,082 - INFO - Loading faiss with AVX2 support.
+2025-08-15 13:11:22,126 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-15 13:11:22,139 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-15 13:11:22,192 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-15 15:25:22,173 - INFO - Loading HuggingFace embeddings …
+2025-08-15 15:25:42,943 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-15 15:25:54,423 - INFO - Loading faiss with AVX512 support.
+2025-08-15 15:25:54,423 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-15 15:25:54,423 - INFO - Loading faiss with AVX2 support.
+2025-08-15 15:25:54,637 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-15 15:25:54,643 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-15 15:25:54,663 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-15 15:25:56,563 - INFO - Loading HuggingFace embeddings …
+2025-08-15 15:26:01,785 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-15 15:26:17,229 - INFO - Loading faiss with AVX512 support.
+2025-08-15 15:26:17,230 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-15 15:26:17,230 - INFO - Loading faiss with AVX2 support.
+2025-08-15 15:26:17,247 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-15 15:26:17,252 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-15 15:26:17,278 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-15 15:28:00,342 - INFO - Loading HuggingFace embeddings …
+2025-08-15 15:28:05,080 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-15 15:28:19,444 - INFO - Loading faiss with AVX512 support.
+2025-08-15 15:28:19,444 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-15 15:28:19,444 - INFO - Loading faiss with AVX2 support.
+2025-08-15 15:28:19,467 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-15 15:28:19,473 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-15 15:28:19,497 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-15 15:34:55,662 - INFO - Loading HuggingFace embeddings …
+2025-08-15 15:35:00,929 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-15 15:35:09,823 - INFO - Loading faiss with AVX512 support.
+2025-08-15 15:35:09,824 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-15 15:35:09,824 - INFO - Loading faiss with AVX2 support.
+2025-08-15 15:35:09,840 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-15 15:35:09,846 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-15 15:35:09,866 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-15 15:44:53,567 - INFO - Loading HuggingFace embeddings …
+2025-08-15 15:44:58,789 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-15 15:45:03,943 - INFO - Loading HuggingFace embeddings …
+2025-08-15 15:45:08,651 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-15 15:45:32,643 - INFO - Loading faiss with AVX512 support.
+2025-08-15 15:45:32,644 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-15 15:45:32,644 - INFO - Loading faiss with AVX2 support.
+2025-08-15 15:45:32,659 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-15 15:45:32,665 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-15 15:45:32,683 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-15 15:51:57,619 - INFO - Loading HuggingFace embeddings …
+2025-08-15 15:52:02,668 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-15 15:52:09,172 - INFO - Loading faiss with AVX512 support.
+2025-08-15 15:52:09,172 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-15 15:52:09,173 - INFO - Loading faiss with AVX2 support.
+2025-08-15 15:52:09,190 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-15 15:52:09,196 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-15 15:52:09,216 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-15 15:52:21,914 - INFO - Loading HuggingFace embeddings …
+2025-08-15 15:52:25,301 - INFO - Loading HuggingFace embeddings …
+2025-08-15 15:52:30,167 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-15 15:52:40,388 - INFO - Loading faiss with AVX512 support.
+2025-08-15 15:52:40,388 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-15 15:52:40,389 - INFO - Loading faiss with AVX2 support.
+2025-08-15 15:52:40,405 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-15 15:52:40,411 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-15 15:52:40,433 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-15 15:54:22,792 - INFO - Loading HuggingFace embeddings …
+2025-08-15 15:54:27,881 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-15 15:54:33,225 - INFO - Loading HuggingFace embeddings …
+2025-08-15 15:54:38,684 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-15 15:54:47,336 - INFO - Loading HuggingFace embeddings …
+2025-08-15 15:54:52,447 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-15 15:55:01,297 - INFO - Loading HuggingFace embeddings …
+2025-08-15 15:55:06,566 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-15 15:55:09,458 - INFO - Loading HuggingFace embeddings …
+2025-08-15 15:55:14,470 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-15 15:55:22,124 - INFO - Loading faiss with AVX512 support.
+2025-08-15 15:55:22,124 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-15 15:55:22,124 - INFO - Loading faiss with AVX2 support.
+2025-08-15 15:55:22,139 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-15 15:55:22,144 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-15 15:55:22,162 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-15 15:59:23,372 - INFO - Loading HuggingFace embeddings …
+2025-08-15 15:59:28,372 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-15 15:59:36,069 - INFO - Loading faiss with AVX512 support.
+2025-08-15 15:59:36,070 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-15 15:59:36,070 - INFO - Loading faiss with AVX2 support.
+2025-08-15 15:59:36,087 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-15 15:59:36,093 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-15 15:59:36,115 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-15 16:00:05,531 - INFO - Loading HuggingFace embeddings …
+2025-08-15 16:00:10,606 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-15 16:00:29,092 - INFO - Loading faiss with AVX512 support.
+2025-08-15 16:00:29,093 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-15 16:00:29,093 - INFO - Loading faiss with AVX2 support.
+2025-08-15 16:00:29,109 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-15 16:00:29,114 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-15 16:00:29,132 - INFO - Vectorstore loaded from vectorstore/db_faiss
+2025-08-15 16:00:54,782 - INFO - Loading HuggingFace embeddings …
+2025-08-15 16:00:59,632 - INFO - Load pretrained SentenceTransformer: intfloat/multilingual-e5-small
+2025-08-15 16:01:15,050 - INFO - Loading faiss with AVX512 support.
+2025-08-15 16:01:15,050 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-15 16:01:15,050 - INFO - Loading faiss with AVX2 support.
+2025-08-15 16:01:15,066 - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-15 16:01:15,072 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-15 16:01:15,090 - INFO - Vectorstore loaded from vectorstore/db_faiss

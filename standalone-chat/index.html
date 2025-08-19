@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FSBM Scholar Assistant</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="title">FSBM Scholar Assistant</div>
+      <div class="mode-toggle" role="group" aria-label="Choisir la méthode">
+        <button id="btnRag" class="toggle active">🔍 RAG</button>
+        <button id="btnKg" class="toggle">🧠 KG</button>
+      </div>
+    </header>
+
+    <main id="chat" class="chat">
+      <div class="message bot">
+        <div class="avatar">FS</div>
+        <div class="bubble">
+          Bonjour ! Choisissez une méthode (RAG ou KG) puis posez votre question.
+        </div>
+      </div>
+    </main>
+
+    <footer class="composer">
+      <textarea id="input" rows="1" placeholder="Écrivez votre message..."></textarea>
+      <button id="send" class="send">Envoyer ▶</button>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+  </body>
+  </html>
+
+

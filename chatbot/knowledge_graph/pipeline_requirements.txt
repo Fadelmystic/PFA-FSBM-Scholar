@@ -1,0 +1,20 @@
+# Dépendances pour le pipeline automatique d'extraction de concepts
+schedule>=1.2.0
+watchdog>=3.0.0
+
+# Extracteurs PDF (au moins un requis)
+PyPDF2>=3.0.0
+PyMuPDF>=1.23.0  # Alternative plus robuste à PyPDF2
+pdfplumber>=0.9.0  # Autre alternative robuste
+
+# Traitement du langage naturel
+nltk>=3.8
+spacy>=3.5.0
+
+# Base de données graphique
+neo4j>=5.0.0
+
+# Dépendances optionnelles pour des fonctionnalités avancées
+# email-validator>=2.0.0  # Pour les notifications par email
+# psutil>=5.9.0           # Pour la surveillance système
+# colorama>=0.4.6         # Pour l'affichage coloré dans le terminal

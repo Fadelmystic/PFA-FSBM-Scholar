@@ -1,0 +1,62 @@
+{
+  "auto_extract": true,
+  "extraction_interval": 3600,
+  "watch_directory": true,
+  "use_neo4j": true,
+  "backup_results": true,
+  "max_concepts_per_module": 100,
+  "min_concept_frequency": 2,
+  "extraction_timeout": 300,
+  "notify_changes": true,
+  "documents_path": "../docs",
+  "output_directory": "./extraction_results",
+  "log_level": "INFO",
+  "email_notifications": false,
+  "email_config": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "",
+    "sender_password": "",
+    "recipient_emails": []
+  },
+  "neo4j_config": {
+    "uri": "bolt://localhost:7687",
+    "user": "neo4j",
+    "password": "password"
+  },
+  "concept_extraction": {
+    "min_word_length": 3,
+    "max_word_length": 50,
+    "technical_indicators": [
+      "définition", "concept", "principe", "méthode", "technique", "algorithme",
+      "framework", "library", "tool", "technology", "protocol", "standard",
+      "pattern", "architecture", "model", "system", "platform", "service"
+    ],
+    "excluded_words": [
+      "et", "ou", "de", "la", "le", "les", "un", "une", "des", "ce", "cette",
+      "and", "or", "the", "a", "an", "this", "that", "these", "those"
+    ]
+  },
+  "modules": {
+    "java": {
+      "keywords": ["java", "jdk", "jre", "jvm", "servlet", "jsp", "jstl"],
+      "priority": 1
+    },
+    "jee": {
+      "keywords": ["jee", "j2ee", "enterprise", "java enterprise"],
+      "priority": 1
+    },
+    "bigdata": {
+      "keywords": ["big data", "hadoop", "hdfs", "mapreduce", "spark"],
+      "priority": 2
+    },
+    "ml": {
+      "keywords": ["machine learning", "ml", "régression", "classification"],
+      "priority": 2
+    },
+    "cloud": {
+      "keywords": ["cloud", "aws", "azure", "gcp"],
+      "priority": 3
+    }
+  }
+}
