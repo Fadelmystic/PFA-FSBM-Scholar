@@ -376,49 +376,4 @@ classDiagram
     ChatController ..> Logger
 ```
 
-## 7. Diagramme de Cas d'Utilisation (UML-like)
 
-```mermaid
-flowchart LR
-    %% Acteurs
-    actorU((Étudiant))
-    actorA((Enseignant/Admin))
-
-    subgraph UC[Cas d'utilisation]
-        U1([Poser une question en mode RAG])
-        U2([Poser une question en mode KG])
-        U3([Basculer de mode RAG ↔ KG])
-        U4([Afficher les sources et citations])
-        U5([Explorer un concept et ses relations]))
-        U6([Voir les prérequis d'un cours])
-        U7([Ingestion de nouveaux documents])
-        U8([Mettre à jour le graphe de connaissances])
-        U9([Lancer un fine-tuning du modèle]))
-        U10([Consulter l'historique des conversations])
-    end
-
-    %% Associations
-    actorU --- U1
-    actorU --- U2
-    actorU --- U3
-    actorU --- U4
-    actorU --- U5
-    actorU --- U6
-    actorU --- U10
-
-    actorA --- U7
-    actorA --- U8
-    actorA --- U9
-    actorA --- U10
-
-    %% Spécifications
-    subgraph Notes[Spécifications fonctionnelles]
-        N1[[RAG: recherche FAISS, top-k, seuil]]
-        N2[[KG: requêtes Cypher, explicabilité]]
-        N3[[Fine-tuning: LoRA/PEFT, dataset FSBM]]
-    end
-
-    U1 --- N1
-    U2 --- N2
-    U9 --- N3
-```
