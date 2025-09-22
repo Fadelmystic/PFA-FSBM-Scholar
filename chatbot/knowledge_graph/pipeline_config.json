@@ -28,34 +28,96 @@
     "min_word_length": 3,
     "max_word_length": 50,
     "technical_indicators": [
-      "définition", "concept", "principe", "méthode", "technique", "algorithme",
-      "framework", "library", "tool", "technology", "protocol", "standard",
-      "pattern", "architecture", "model", "system", "platform", "service"
+      "définition",
+      "concept",
+      "principe",
+      "méthode",
+      "technique",
+      "algorithme",
+      "framework",
+      "library",
+      "tool",
+      "technology",
+      "protocol",
+      "standard",
+      "pattern",
+      "architecture",
+      "model",
+      "system",
+      "platform",
+      "service"
     ],
     "excluded_words": [
-      "et", "ou", "de", "la", "le", "les", "un", "une", "des", "ce", "cette",
-      "and", "or", "the", "a", "an", "this", "that", "these", "those"
+      "et",
+      "ou",
+      "de",
+      "la",
+      "le",
+      "les",
+      "un",
+      "une",
+      "des",
+      "ce",
+      "cette",
+      "and",
+      "or",
+      "the",
+      "a",
+      "an",
+      "this",
+      "that",
+      "these",
+      "those"
     ]
   },
   "modules": {
     "java": {
-      "keywords": ["java", "jdk", "jre", "jvm", "servlet", "jsp", "jstl"],
+      "keywords": [
+        "java",
+        "jdk",
+        "jre",
+        "jvm",
+        "servlet",
+        "jsp",
+        "jstl"
+      ],
       "priority": 1
     },
     "jee": {
-      "keywords": ["jee", "j2ee", "enterprise", "java enterprise"],
+      "keywords": [
+        "jee",
+        "j2ee",
+        "enterprise",
+        "java enterprise"
+      ],
       "priority": 1
     },
     "bigdata": {
-      "keywords": ["big data", "hadoop", "hdfs", "mapreduce", "spark"],
+      "keywords": [
+        "big data",
+        "hadoop",
+        "hdfs",
+        "mapreduce",
+        "spark"
+      ],
       "priority": 2
     },
     "ml": {
-      "keywords": ["machine learning", "ml", "régression", "classification"],
+      "keywords": [
+        "machine learning",
+        "ml",
+        "régression",
+        "classification"
+      ],
       "priority": 2
     },
     "cloud": {
-      "keywords": ["cloud", "aws", "azure", "gcp"],
+      "keywords": [
+        "cloud",
+        "aws",
+        "azure",
+        "gcp"
+      ],
       "priority": 3
     }
   }

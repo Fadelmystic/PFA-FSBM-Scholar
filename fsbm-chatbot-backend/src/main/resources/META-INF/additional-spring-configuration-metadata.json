@@ -1,8 +1,0 @@
-{
-  "properties": [
-    {
-      "name": "application.jwt.refresh.token.expiration.ms",
-      "type": "java.lang.String",
-      "description": "Description for application.jwt.refresh.token.expiration.ms."
-  }
-] }

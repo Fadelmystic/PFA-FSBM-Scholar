@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg-info/
+.eggs/
+
+# Envs
+.env
+.venv/
+venv/
+ENV/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs
+*.log
+chatbot/app.log
+chatbot/logs/
+
+# Data / caches
+*.cache
+*.pkl
+*.pickle
+*.faiss
+*.npz
+*.npy
+
+# Models / checkpoints / large binaries
+*.pt
+*.bin
+*.ckpt
+*.h5
+*.onnx
+
+# Vector stores and indexes
+chatbot/vectorstore/
+
+# Fine-tuning artifacts
+chatbot/Fine-tuning/Model/
+chatbot/Fine-tuning/**/checkpoint-*/
+
+# Knowledge graph generated files
+chatbot/knowledge_graph/auto_pipeline.log
+chatbot/knowledge_graph/latest_extraction_results.json
+chatbot/knowledge_graph/extraction_results_*.json
+chatbot/knowledge_graph/backup/
+
+# Course/Docs heavy PDFs (exclude entire docs to keep repo light)
+chatbot/docs/
+
+# Node
+node_modules/
+.lock-wscript
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
